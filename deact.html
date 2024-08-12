@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Media Deactivation Form</title>
+</head>
+<body>
+	<h2>Social Media Deactivation Form</h2>
+	<form>
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username" required></td>
+			</tr>
+			<tr>
+				<td>Reason for Deactivation:</td>
+				<td>
+					<select name="reason" required>
+						<option value="personalReasons">Personal Reasons</option>
+						<option value="securityConcerns">Security Concerns</option>
+						<option value="lackOfUse">Lack of Use</option>
+						<option value="other">Other</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Account Type:</td>
+				<td>
+					<select name="accountType" required>
+						<option value="facebook">Facebook</option>
+						<option value="twitter">Twitter</option>
+						<option value="instagram">Instagram</option>
+						<option value="other">Other</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Confirm Deactivation:</td>
+				<td>
+					<input type="checkbox" name="confirmDeactivation" required>
+					<label>I confirm that I want to deactivate my account.</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Deactivate Account"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
